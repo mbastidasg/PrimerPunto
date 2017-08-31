@@ -9,6 +9,15 @@ package becker;
  *
  * @author MARIAJOSE
  */
-public class Ejercicio4 {
+public class Zonas {
+    
+    Espacio[] espacio;
+    
+    public Zonas( int tamano ) {
+        espacio = new Espacio[tamano];
+        for( int i = 0; i < tamano; i++ ) {
+            espacio[i] = new Espacio();
+        }
+    }
     
 }
